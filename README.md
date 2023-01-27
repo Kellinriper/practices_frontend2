@@ -10,8 +10,8 @@ Accordion 🔓
 
 ________________________________________________________________________________________________________________________________________________________________________
 
-Etapa de citação (<blackquote> e aspas <q> 
-Citation step (<blackquote> and quote <q>
+Etapa com tags para citação e aspas
+
 
 ![image](https://user-images.githubusercontent.com/84669986/215211571-4d472a86-2c4f-485d-bb2e-ccce239ef1e0.png)
 
