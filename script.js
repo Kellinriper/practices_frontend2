@@ -50,7 +50,7 @@ function carregaDicionario() {
         },
 
     };
-    var content= document.getElementById ("content");
+    var content= document.getElementById("content");
 
     for (var bio in biografias) {
         content.innerHTML += 
@@ -66,7 +66,7 @@ function carregaDicionario() {
         biografias[bio].descricao+
         "</p>"+
         "<blackquote><q>"+
-        biografia[bio].citacao+
+        biografias[bio].citacao+
         "</q></blackquote"+
         "</details>"+
         "</div>";
