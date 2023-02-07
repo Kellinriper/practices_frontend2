@@ -50,19 +50,27 @@ function carregaDicionario() {
         },
 
     };
+    var content= document.getElementById ("content");
+
     for (var bio in biografias) {
-        console.log(
-            (bio +=
-                " " +
-                "nome:" +
-                biografias[bio].nome +
-                "" +
-                "minibio:" +
-                biografias[bio].descricao +
-                "" +
-                "citacao:" +
-                biografias[bio].citacao)
-        );
+        content.innerHTML += 
+        '<div class="card">'+
+        '<img src="'+
+        biografias[bio].imagem +
+        '"/>'+
+        "<details>"+
+        "<summary>"+
+        biografias[bio].nome+
+        "</summary>"+
+        "<p>"+
+        biografias[bio].descricao+
+        "</p>"+
+        "<blackquote><q>"+
+        biografia[bio].citacao+
+        "</q></blackquote"+
+        "</details>"+
+        "</div>";
+
     }
 
 }
